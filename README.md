@@ -9,3 +9,5 @@ Since the comments are in Slovenian, this is how it works:
 - send an ARP request telling the target PC you're the gateway
 This updates both of their ARP tables, making all their communication to each other visible to you. 
 Most modern networks are protected against this. 
+
+The program saves all the recorded data to a python.pcap file, that is easily readable by Wireshark or a similar program. 
